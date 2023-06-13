@@ -107,6 +107,9 @@ public class application extends Application {
 
     ComboBox<String> object_selector;
     ComboBox<String> operation_selector;
+
+    Label result_label = new Label("");
+
     @Override
     public void start(Stage stage) throws Exception {
         Pane root = new Pane();
@@ -142,6 +145,8 @@ public class application extends Application {
         operation_selector.setTranslateX((screen_width - 2 * selectors_padding) * (selector_persentage) + selectors_padding);
         operation_selector.setTranslateY(selectors_y);
         root.getChildren().add(operation_selector);
+
+        root.getChildren().add(result_label);
 
         // update functions
         object_selector.setOnAction(new EventHandler<ActionEvent>() {
@@ -274,11 +279,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -354,11 +357,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -433,11 +434,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -515,11 +514,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -594,11 +591,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -708,11 +703,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -788,11 +781,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -980,11 +971,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -1058,11 +1047,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -1137,11 +1124,9 @@ public class application extends Application {
 
         int result_label_x = (selectors_padding + button_width + 10);
         int result_label_y = button_y + button_height/4;
-        Label result_label = new Label("");
         result_label.setTranslateX(result_label_x);
         result_label.setTranslateY(result_label_y);
-        root.getChildren().add(result_label);
-        dynamic_objets.add(result_label);
+
 
         submit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
